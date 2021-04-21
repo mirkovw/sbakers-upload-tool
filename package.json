@@ -1,0 +1,28 @@
+{
+  "name": "sbakers-upload-tool",
+  "version": "1.0.0",
+  "description": "CLI tool which uploads video files to specific collections on social bakers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirkovw/sbakers-upload-tool.git"
+  },
+  "author": "Mirko van Willigenburg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirkovw/sbakers-upload-tool/issues"
+  },
+  "homepage": "https://github.com/mirkovw/sbakers-upload-tool#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-cookiejar-support": "^1.0.1",
+    "form-data": "^4.0.0",
+    "fs-extra": "^9.1.0",
+    "jsdom": "^16.5.2",
+    "tough-cookie": "^4.0.0"
+  }
+}
